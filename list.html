@@ -6,23 +6,24 @@
 </head>
 <body>
 <div id ="container">
-    <h2>A Cat's To Do List</h2>
+    <h2>My Cat's To Do List</h2>
     <!-- Add an item -->
-    <form id = "todoForm">
-        <input type="text" id="todoInput" placeholder ="to-do">
+        <input type="text" id ="newItem">
         <!-- Added function to button -->
-        <button type = "button" onclick="todoList()">Add an Item</button> 
-    </form>
+        <button type = "button" id="todoBtn">Add an Item</button> 
+    
     <!-- List of to-dos -->
-	<ul id="todoList">
-		<li>Eat</li>
+	<ul id="list" > 
+        <!-- //id="todoList" -->
+        <li>Scratch Couch</li>
+        <li>Destroy House Plants</li>
 		<li> Nap</li>
 		<li> Nap 2</li>
     </ul>
     
 </div>
-    <script type="text/javascript" src="list.js">
-    </script>
+    <script text ="text/javascript" src ="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="list.js"></script>
 
     </body>
 </html>
